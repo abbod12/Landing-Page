@@ -1,0 +1,85 @@
+  <!DOCTYPE >
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alexandria STEM School</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- HTML Follows BEM naming conventions 
+    IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+      <div class="btn" onclick="myFunction();">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar__menu">
+        <h4 style= background-color:rgb(18,68,143)>Sections</h4>
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+        
+      </nav>
+    </header>
+    <main>
+     <header class="main__hero">
+        <h1 style="text-align:center ;">We build minds,<br> we change world</h1>
+      
+
+      </header>
+      <!-- Each Section has an ID (used for the anchor) and 
+      a data attribute that will populate the li node.
+      Adding more sections will automatically populate nav.
+      The first section is set to active class by default -->
+      <section id="section1" data-nav="Academics" class="active">
+        <div class="landing__container">
+          <h2>Academics</h2>
+          <p>Here you learn how to really <strong>be</strong> a student. You study, build projects, do presentations, cooperate in teams, win in competitions and make a new family. Yeah, that's really cool. Here you, for the first time, will be staying in dorms with your closest friends. Unlimited number of stories, laughs, challenges, stay-ups, but most importantly, Studying together. Not forgetting that this IS a school, you must be studying. Here you will encounter how teams work together to make the best outcome. You study together, you prepare together, you help eachother, all other..other..other. Humans are meant to help. And STEMers fulfil this mean  </p>
+  
+          <p>Because you are special, we prepared <bold>special</bold>syllabus for you. As our students have the ability to do more and recieve more, our cirriculums targets and works on this abilities to thrive. You study more advanced science subjects and topics than any other high school student in Egypt. Our teached lessons include a variety of topics, that, for sure, will capture you interest. So, get excited, future STEMer!!  </p>
+        </div>
+      </section>
+      <section id="section2" data-nav="Student Life">
+        <div class="landing__container">
+          <h2>Student Life</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+  
+          <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+        </div>
+      </section>
+      <section id="section3" data-nav="Admission">
+        <div class="landing__container">
+          <h2>Admission</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+  
+          <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+        </div>
+      </section>
+      <section id="section4" data-nav="Contact Us">
+        <div class="landing__container">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+  
+          <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+        </div>
+      </section>
+      <button class="toTop" onclick="topFunction()">
+        <i class="fa-solid fa-angles-up"></i>
+          </main>
+    <footer class="page__footer">
+      <p>&copy Udacity</p>
+    </footer>
+
+    <div class="scrolltotop" id="scrolltop">Top</div>
+    <script src="js/app.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+  </body>
+  </html>
