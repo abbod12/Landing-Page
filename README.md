@@ -3,7 +3,7 @@ Abdelrahman Zaitoun
 
 ## Project Discription:
 
-    This project is a multi-sectional landing page. Each section has some content. The navigation bar at the header of the page consists of list items with each section name, which when clicked it heads to the section whose name is the same as the clicked one. The section in viewport has an active class, which makes it more visible than other sections to clarify and increase focus.
+This project is a multi-sectional landing page. Each section has some content. The navigation bar at the header of the page consists of list items with each section name, which when clicked it heads to the section whose name is the same as the clicked one. The section in viewport has an active class, which makes it more visible than other sections to clarify and increase focus.
 
 ## Usage:
 
